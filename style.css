@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body, div{
+	margin: 0;
+	padding: 5px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	background: url("IMG/Backgrounds/background2.jpg");
+	line-height: 1;
+}
+
+.container{
+	margin: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	justify-content: center;
+}
+
+.item{
+	margin:5px;
+	border-color: pink;
+	border-width: 4px;
+	border-style: solid;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	font-family:'Brush Script MT', cursive;
+	font-size: 40px;
+	background-color: pink;
+}
