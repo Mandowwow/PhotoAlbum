@@ -41,6 +41,11 @@ a{
 
 }
 
+.homeContainer{
+	display: flex;
+	justify-content: center;
+}
+
 .container{
 	margin: 40px;
 	display: flex;
