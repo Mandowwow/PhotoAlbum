@@ -16,6 +16,31 @@ body{
 	line-height: 1;
 }
 
+ul{
+	
+}
+
+a{
+	color:black;
+	font-family:'Brush Script MT', cursive;
+	font-size: 25px;
+}
+
+.navContainer{
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar ul{
+	display: flex;
+}
+
+.navbar ul li{
+	margin-top: 20px;
+	margin-right: 40px;
+
+}
+
 .container{
 	margin: 40px;
 	display: flex;
